@@ -5,8 +5,7 @@ html {
 body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
-    /* height: calc(100vh - 164px); */
-    height: 100%;
+    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
@@ -62,14 +61,20 @@ body {
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: white;
-    z-index: -1 ;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
 
 
 /* -------------------------------- Media Queries */
@@ -88,7 +93,7 @@ body {
         top: 0;
         right: 0;
         left: 0;
-        z-index: 1020;
+        z-index: 1030;
     }
 
     .header-container {
