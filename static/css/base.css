@@ -5,7 +5,8 @@ html {
 body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    /* height: calc(100vh - 164px); */
+    height: 100%;
     color: #555;
     font-family: 'Lato';
 }
@@ -87,7 +88,7 @@ body {
         top: 0;
         right: 0;
         left: 0;
-        z-index: 1030;
+        z-index: 1020;
     }
 
     .header-container {
